@@ -1,0 +1,6 @@
+===rw ntfs on mac
+1.diskutil list
+2.本地新建挂载路径
+3.sudo umount /dev/disk2s4 推出磁盘 
+4.sudo mount_ntfs -o rw, nobrowse /dev/disk2s4 2的新路径
+
